@@ -1,0 +1,24 @@
+.history-list {
+  display: flex;
+  flex-direction: column;
+  padding: 40rpx;
+}
+
+.title {
+  font-size: 26rpx;
+  color: #8995a1;
+}
+
+.iconfont{
+  float: right;
+  margin-right: 50rpx;
+}
+
+.item {
+  display: flex;
+  margin-top: 40rpx;
+padding-bottom: 10rpx;
+  font-size: 24rpx;
+  color: #8995a1;
+
+}

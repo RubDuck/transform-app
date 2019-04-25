@@ -1,0 +1,13 @@
+<scroll-view scroll-y class="container">
+<view class="history-list">
+    <view class="title">
+    <text>翻译历史</text>
+    <text class="iconfont icon-error" bindtap='clear'></text>
+    
+    </view>
+    <view class="item" wx:for="{{history}}" wx:key="index">
+      <view class="result">{{item.query}} : {{item.result}}</view>
+    
+    </view>
+  </view>
+  </scroll-view>

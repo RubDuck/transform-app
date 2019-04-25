@@ -1,0 +1,11 @@
+/**app.wxss**/
+
+@import './icon/icon.wxss';
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+
+} 

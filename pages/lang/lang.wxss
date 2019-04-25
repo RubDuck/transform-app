@@ -1,0 +1,21 @@
+/* pages/lang/lang.wxss */
+.container{
+  background: #f8f8f8;
+}
+
+.containerTitle{
+ background: #fff;
+  border-bottom: 1px solid #ececec;
+  padding: 20rpx 40rpx;
+  color: #aaa;
+  font-size: 28rpx;
+}
+.containerLang{
+  border-bottom: 1px solid #ececec;
+  padding:  20rpx 40rpx 20rpx 40rpx;
+  background-color: #fff;
+}
+
+.iconfont{
+float: right
+}

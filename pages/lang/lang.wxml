@@ -1,0 +1,8 @@
+<!--pages/lang/lang.wxml-->
+<view class='container'>
+  <view class="containerTitle">选择语言</view>
+  <view class='containerLang' wx:key="{{item.index}}"  wx:for="{{langList}}" data-lang="{{item.lang}}"  data-index="{{item.index}}" data-chs="{{item.chs}}" bindtap='Onclick'  hover-class="view-hover">{{item.chs}}
+  <text class="iconfont icon-check" wx:if="{{index===currentlang.index}}">
+  </text>
+  </view>
+</view>
